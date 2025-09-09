@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/python-39:1-1755762245
+FROM quay.io/brunop_konflux/build-test/devfile-sample-python-basic:abcd123
 
 # By default, listen on port 8081
 EXPOSE 8081/tcp
